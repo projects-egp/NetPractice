@@ -25,6 +25,7 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
 <h3>Concepts</h3>
 <ul>
   <li>IP - Internet Protocol</li> Standard protocol to communicate devices and networks. It's routing functions allows to interconnect multiple networks.
+  "<b>Internet Protocol</b>". Wikipedia®, CC BY-SA <https></https>https://en.wikipedia.org/wiki/Internet_Protocol</https>
   <li>IPv4</li>
 </ul>
 <h3>Other resources</h3>

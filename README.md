@@ -29,4 +29,4 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
 </ul>
 <h3>Other resources</h3>
 
-<a href="#top">Back to top of README.md</a>
+<a href="#top">Back to index</a>

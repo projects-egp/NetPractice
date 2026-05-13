@@ -31,11 +31,11 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
   <ul><li><b>"IPv4"</b>. Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/IPv4</https></li></ul>
    <li>Subnet Masks</li>
   An IP address is divided in two parts: first part, the most signficant bits, represent the network (or subnetwork) where it belongs; and second part, bits that represent each device on from a network.
-  Number of bits for this parts vary on network size. To represent this different sizes, there is a way to divide them by classes:
+  Number of bits for this parts vary on network size. To represent this different network sizes, there is a way to divide them by classes:
   
-  <ul><li>Class A: 16.777.214 unique addresses on a network</li>
-  <li>Class B: 65.534 unique addresses on a network</li>
-  <li>Class C: 254 unique addresses on a network</li></ul>
+  <ul><li>Class A: 16.777.214 hosts on a network</li>
+  <li>Class B: 65.534 hosts on a network</li>
+  <li>Class C: 254 hosts on a network</li></ul>
   If IP addresses have 32 bits in IPv4, masks use other 32 bits. Their purpose is to indicate which bits from IP address are part of network prefix, represented in mask with 1 valued bits, and which of them indicates the host identifier, by 0 valued bits. This is done with bitwise AND.
   So, 32 bits, again 4 bytes. With first 18 bits set to '1', for example, a mask could be represented as 255.255.192.0. It is also represented as /18, and can be put together with an IP address, so it represents one device, or a complete netork, with size of this one. For example, 192.10.24.0/24. 
   To know how many host are allowed in a network, we do substraction of 32 bits with the number of 1-bits from mask. For example, /25 means that we have free 32 - 25 == 7 bits. With this 7 bits, we have 2⁷ - 2 hosts, 62. In a network, first IP address is used to refer the whole netwrok, and last address is used for broadcast.

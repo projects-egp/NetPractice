@@ -29,6 +29,8 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
   <li>IPv4</li> Fourth version of Internet Protocol. IPv4 addresses 32 bits, so it allows 4.294.967.296 unique adresses to identify internet devices.As long as this amount of addresses will not be enough to manage internet in future, exists sine 90's IPv6, which use addresses based in 128 bits, this means, 340 undecillion (340.282.366.920.938.463.463.374.607.431.768.211.456) unique adresses.
   Nowadays, IPv4 still be the most common version. 32 bits are divided in 4 bytes, four groups of 8 bits. This bytes are expressed as decimal number between 0 and 255. For example, 12.255.62.254. 
   <ul><li><b>"IPv4"</b>. Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/IPv4</https></li></ul>
+   <li>IP Addresses</li>
+   <li>Subnet Masks</li>
 </ul>
 <h3>Other resources</h3>
 <ul>

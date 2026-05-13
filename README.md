@@ -37,7 +37,8 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
   <li>Class B</li>
   <li>Class C</li></ul>
   If IP addresses have 32 bits in IPv4, masks use other 32 bits. Their purpose is to indicate which bits from IP address are part of network prefix, represented in mask with 1 valued bits, and which of them indicates the host identifier, by 0 valued bits. This is done with bitwise AND.
-  So, 32 bits, again 4 bytes. With first 18 bits set to '1', for example, a mask could be represented as 255.255.192.0.
+  So, 32 bits, again 4 bytes. With first 18 bits set to '1', for example, a mask could be represented as 255.255.192.0. It is also represented as /18, and can be put together with an IP address, so it represents one device, or a complete netork, with size of this one. For example, 192.10.24.0/24. 
+  To know how many host are allowed in a network, we do substraction of 32 bits with the number of 1-bits from mask. For example, /25 means that we have free 32 - 25 == 7 bits. With this 7 bits, we have 2⁷ - 2 hosts, 62. In a network, first IP address is used to refer the whole netwrok, and last address is used for broadcast.
   
    <ul><li>"<b>Subnet</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Subnet</https></li>
    <li>"<b>Classless Inter-Domain Routing</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#IPv4_CIDR_blocks</https></li>

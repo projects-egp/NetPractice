@@ -30,7 +30,14 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
   Nowadays, IPv4 still be the most common version. 32 bits are divided in 4 bytes, four groups of 8 bits. This bytes are expressed as decimal number between 0 and 255. For example, 12.255.62.254. 
   <ul><li><b>"IPv4"</b>. Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/IPv4</https></li></ul>
    <li>Subnet Masks</li>
-  An IP address is divided in two parts: first half, the most signficant bits, represent the network (or subnetwork) where it  
+  An IP address is divided in two parts: first part, the most signficant bits, represent the network (or subnetwork) where it belongs; and second part, bits that represent each device on from a network.
+  Number of bits for this parts vary on network size. To represent this different sizes, there is a way to divide them by classes:
+  
+  <ul><li>Class A</li>
+  <li>Class B</li>
+  <li>Class C</li></ul>
+  If IP addresses have 32 bits in IPv4, masks use other 32 bits. Their purpose is to 
+  
    <ul><li>"<b>Subnet</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Subnet</https></li>
    <li>"<b>Classless Inter-Domain Routing</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#IPv4_CIDR_blocks</https></li>
    <li><b>"IPv4 CIDR Visualizer"</b> <https>https://cidr-subnet.netlify.app/</https></li></ul>

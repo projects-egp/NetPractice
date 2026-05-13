@@ -36,7 +36,8 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
   <ul><li>Class A</li>
   <li>Class B</li>
   <li>Class C</li></ul>
-  If IP addresses have 32 bits in IPv4, masks use other 32 bits. Their purpose is to 
+  If IP addresses have 32 bits in IPv4, masks use other 32 bits. Their purpose is to indicate which bits from IP address are part of network prefix, represented in mask with 1 valued bits, and which of them indicates the host identifier, by 0 valued bits. This is done with bitwise AND.
+  So, 32 bits, again 4 bytes. With first 18 bits set to '1', for example, a mask could be represented as 255.255.192.0.
   
    <ul><li>"<b>Subnet</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Subnet</https></li>
    <li>"<b>Classless Inter-Domain Routing</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing#IPv4_CIDR_blocks</https></li>

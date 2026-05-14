@@ -17,8 +17,23 @@ Therefore, you will find the 10 exercises I have done with this simulated cases.
 
 <h1 id="instructions">Instructions</h1>
 
+To evaluate this project, three students will check if the one evaluated can solve 3 hypothetical cases of networks that must be configured. This is done with an interface given by Intra project page and project evaluation page. Will talk below how this interface works.
+
+The cases will present a small-scale network, with different devices: computers as hosts, switches, routers, and also Internet. This network map has gaps to insert IP addresses, subnet masks, and routing tables. Besides, there will be some goal or goals in each case, what is expected to be solved in it. 
+
+The evaluated student should configure all the addresses, check if this configuration works, and then change to next case. The whole 3 cases must be solved in less than 15 minutes when this project is evaluated. The evaluator will check if the evaluated gets run out of time.
+
+To prepare this evaluation, students have access to the interface to train 10 different cases with different difficulty level.
+
 <h3>How to run training interface</h3>
-At evaluation 
+
+ The student who takes charge of the evaulation will find at evaluation page two files: Subject and net_practice.1.9.tgz.
+ Download net_practice.1.9.tgz. It is a compressed folder. You may manage it with Files window, but also with terminal and shell. In second case, you will do this steps:
+
+ <ol><li>Open terminal</li>
+ <li>In home (default directory opened by terminal), write this command: "mv Downloads/net_practice.1.9.tgz [directory_where_you_want_to_store_interface]"</li>
+ <li>To unzip folder, write "tar -xzvf net_practice.1.9". This will extract net_practice/</li>
+ <li>To finally execute the interface, write: "cd net_practice && ./run.sh", or "./net_practice/run.sh"</li></ol>
 
 <h1 id="resources">Resources</h1>
 

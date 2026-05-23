@@ -80,9 +80,16 @@ To prepare this evaluation, students have access to the interface to train 10 di
   OSI model's levels are these ones:
   <ul><li>7. Application</li>
     For example, HTTPS<li>6. Presentation</li>Translation of data, enryption/decryption, etc.<li>5. Session</li>Continous exchange of information on a session<li>4. Transport</li>Guarantees transmission of data from origin to destination, through the network.<li>3. Network</li>Manages addressing, routing and traffic control<li>2. Data link</li>Manage transmission through phisical layer<li>1. Physical</li>Lowest level, transmission of bit streams</ul>
+  ---
   <h4>TCP/IP</h4>
-  <h4>(default) gateway</h4>
-
+---
+<h4>Gateway</h4>
+Hardware or software that allows connection between networks.
+---
+<h4>Router</h4>
+Device used for packet forwarding through netowrks and Internet. Receives data packets with destinaition IP address, and make forwarding decisions to send data through better possible route. 
+---
+<h4>Switch</h4>
   <h1>Hey, look this! REPASA QUÉ ES 0.0.0.0/0 y cómo funciona!!!!!</h1>
 
 <a href="#top">Back to index</a>

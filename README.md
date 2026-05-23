@@ -83,7 +83,9 @@ To prepare this evaluation, students have access to the interface to train 10 di
   OSI model's levels are these ones:
   <ul><li>7. Application</li>
     For example, HTTPS or SSH<li>6. Presentation</li>Translation of data, enryption/decryption, etc.<li>5. Session</li>Continous exchange of information on a session<li>4. Transport</li>Guarantees transmission of data from origin to destination, through the network. TCP belongs here<li>3. Network</li>Manages addressing, routing and traffic control. IP, for example.<li>2. Data link</li>Manage transmission through phisical layer. Ethernet is a layer-2 standard<li>1. Physical</li>Lowest level, transmission of bit streams</ul>
-    <ul><li>"<b>OSI model</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/OSI_model</https></li></ul>
+
+  
+  <ul><li>"<b>OSI model</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/OSI_model</https></li></ul>
     
   ---
   
@@ -98,7 +100,13 @@ To prepare this evaluation, students have access to the interface to train 10 di
   <li>1. Link</li>
     Layers 1 and 2 from OSI model are here.
   </ul>
+
   
+  <ul><li>"<b>Internet protocol suite</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Internet_protocol_suite</https></li>
+    <li>"<b>Qué es TCP/IP</b>". OpenWebinars S.L., Angel Robledano <https>https://openwebinars.net/blog/que-es-tcpip/</https></li>
+  </ul>
+
+
 ---
 
 <h4>Gateway</h4>

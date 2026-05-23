@@ -87,7 +87,17 @@ To prepare this evaluation, students have access to the interface to train 10 di
     
   ---
   
-  <h4>TCP/IP</h4>
+  <h4>Internet protocol suite(TCP/IP)</h4>
+  Model to organize all the communication protocols used on Internet. Similar to OSI model, TCP/IP is less theorical and focuses on Internet. OSI model is the reference framework for general networking systems. Is also structured in layers:
+  <ul><li>4. Application</li>
+  OSI layyers 5 to 7 are here. But it have protocols used for internet like HTTP, SSH, DNS, FTPP, etc.
+  <li>3. Transport</li> 
+    As layer 4, Transport, of OSI model.
+  <li>2. Internet</li>
+  Like layer 3, Network, from OSI model. IP, for example.
+  <li>1. Link</li>
+    Layers 1 and 2 from OSI model are here.
+  </ul>
   
 ---
 

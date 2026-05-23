@@ -92,7 +92,8 @@ To prepare this evaluation, students have access to the interface to train 10 di
 ---
 
 <h4>Gateway</h4>
-Hardware or software that allows connection between networks.
+Access point to another networks. Is not a device itself. For example, a router can work as a gateway for you PC at home to connect an internet service. And is not part of just ne OSI layer, it can be used as part of each of them.
+ <ul><li>"<b>Gateway (telecommunications)</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Gateway_(telecommunications)</https></li></ul>
 
 ---
 

@@ -102,7 +102,7 @@ Device used for packet forwarding through netowrks and Internet. Receives data p
 
 <h4>Switch</h4>
 Hardware that connects devices inside same network. Work at OSI layer-2, data link, and works with MAC addresses, which identifies every device connected to switch. Switch receives some data, gets destination MAC addresses, and sends it only to that device.
-<ul><li>"<b>Network switch</b>". Wikipedia®, CC BY-SA <https>[https://en.wikipedia.org/wiki/Subnet](https://en.wikipedia.org/wiki/Network_switch)</https></li>
+<ul><li>"<b>Network switch</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Network_switch</https></li>
 
   <h1>Hey, look this! REPASA QUÉ ES 0.0.0.0/0 y cómo funciona!!!!!</h1>
 

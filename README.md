@@ -10,7 +10,7 @@ _This project has been created as part of the 42 curriculum by \<enrgil-p\>_
 <h1 id="description">Description</h1>
 
 NetPractice is an introduction to basics of computer networking. In this project, 42's students are asked to not only
-learn about concepts like TCP/IP, netowrk routes and subnet masks, IP directions, OSI model, etc; but also test how this would be used
+learn about concepts like TCP/IP, network routes and subnet masks, IP directions, OSI model, etc; but also test how this would be used
 in order to configure hypothetical small-scale networks.
 
 Therefore, you will find the 10 exercises I have done with this simulated cases. Networking concepts learned are explained in this README.md file, at **<a href="#resources">Resources</a>** section.
@@ -75,21 +75,35 @@ To prepare this evaluation, students have access to the interface to train 10 di
   <h4>Broadcast</h4>
   Method to send a message from one sender node to all possible endpoints. Is used, for eample, when sender doesn't know which host from a network has to receive some packets or datagrams. As said above, every network has a boradcast address, the biggest of the network, which has all host bits with value 1. 
   <ul><li>"<b>Difusión amplia</b>". Wikipedia®, CC BY-SA <https>https://es.wikipedia.org/wiki/Difusi%C3%B3n_amplia</https></li></ul>
-  <li>Open Systems Interconnection (OSI) model</li>
+  
+  ---
+  
+  <h4>Open Systems Interconnection (OSI) model</h4>
   Reference model to coordinate different standards used in networks. Divided in seven abstracion layers, classifies protocols in their respective purposes. For example, famous TCP and IP. These protocols use to work together because they take charge of different needs for connection: IP establish route beetween devices, and TCP guarantees data delivery. And a layer has many standards and protocols. TCP is from layer 4, Transportation. But another protocol for transportation is UDP. Same purpose, different protocols.
   OSI model's levels are these ones:
   <ul><li>7. Application</li>
     For example, HTTPS<li>6. Presentation</li>Translation of data, enryption/decryption, etc.<li>5. Session</li>Continous exchange of information on a session<li>4. Transport</li>Guarantees transmission of data from origin to destination, through the network.<li>3. Network</li>Manages addressing, routing and traffic control<li>2. Data link</li>Manage transmission through phisical layer<li>1. Physical</li>Lowest level, transmission of bit streams</ul>
+    
   ---
+  
   <h4>TCP/IP</h4>
+  
 ---
+
 <h4>Gateway</h4>
 Hardware or software that allows connection between networks.
+
 ---
+
 <h4>Router</h4>
-Device used for packet forwarding through netowrks and Internet. Receives data packets with destinaition IP address, and make forwarding decisions to send data through better possible route. 
+Device used for packet forwarding through netowrks and Internet. Receives data packets with destination layer-3 addresses, like IP, and make forwarding decisions to send data through better possible route. 
+
 ---
+
 <h4>Switch</h4>
+Hardware that connects devices inside same network. Work at OSI layer-2, data link, and works with MAC addresses, which identifies every device connected to switch. Switch receives some data, gets destination MAC addresses, and sends it only to that device.
+<ul><li>"<b>Network switch</b>". Wikipedia®, CC BY-SA <https>[https://en.wikipedia.org/wiki/Subnet](https://en.wikipedia.org/wiki/Network_switch)</https></li>
+
   <h1>Hey, look this! REPASA QUÉ ES 0.0.0.0/0 y cómo funciona!!!!!</h1>
 
 <a href="#top">Back to index</a>

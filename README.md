@@ -123,8 +123,10 @@ Device used for packet forwarding through netowrks and Internet. Receives data p
 
 <h4>Switch</h4>
 Hardware that connects devices inside same network. Work at OSI layer-2, data link, and works with MAC addresses, which identifies every device connected to switch. Switch receives some data, gets destination MAC addresses, and sends it only to that device.
-<ul><li>"<b>Network switch</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Network_switch</https></li>
+<ul><li>"<b>Network switch</b>". Wikipedia®, CC BY-SA <https>https://en.wikipedia.org/wiki/Network_switch</https></li></ul>
 
-  <h1>Hey, look this! REPASA QUÉ ES 0.0.0.0/0 y cómo funciona!!!!!</h1>
+<h3>Use of AI in this project</h3>
+
+Main resource for this project is Wikipedia, because there can be found all the basic descriptions and explanations to understand computer networking's theory. However, some of this explanations are hard to understand when you are learning without prior knowledge of this subject. AI has been used to understand better definitions and purposes of protocols in easy few words.
 
 <a href="#top">Back to index</a>

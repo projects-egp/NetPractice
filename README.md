@@ -35,6 +35,14 @@ To prepare this evaluation, students have access to the interface to train 10 di
  <li>To unzip folder, write "tar -xzvf net_practice.1.9". This will extract net_practice/</li>
  <li>To finally execute the interface, write: "cd net_practice && ./run.sh", or "./net_practice/run.sh"</li></ol>
 
+<h3>Submission requirements and how to export configurations</h3>
+
+This projects requires to submit this README.md and cconfigurations done with the 10 training levels. All the files must be at the repository root. 
+
+To export the configurations, we have to solve the level exercise on training interface. There are two buttons below the level instructions: "Check again" and "Get my config".
+
+"Check again" will show us if the given solution is correct. If it is right, a new button will appear, "Next level", which allows to change to next exercise."Get my config" will export our solution to a JSON file.
+
 <h1 id="resources">Resources</h1>
 
 <h2>Concepts</h3>
